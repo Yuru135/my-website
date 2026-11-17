@@ -1,0 +1,53 @@
+﻿<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a1a1a">
+  <meta name="description" content="VOID® 潮流服飾，為城市日常重新定義輪廓。探索最新系列與精選單品。">
+  <title>VOID® — Wear the Unknown</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <div class="announcement"><span>NEW DROP 008 — NOW LIVE</span><span class="announcement-right">WORLDWIDE SHIPPING AVAILABLE <span class="pulse-dot"></span></span></div>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="VOID 首頁">VOID<span>®</span></a>
+    <button class="menu-toggle" aria-label="開啟導覽選單" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav" aria-label="主導覽">
+      <a href="#collection">COLLECTION <sup>01</sup></a><a href="#about">OUR WORLD</a><a href="#contact">CONTACT</a>
+    </nav>
+    <button class="cart-button" aria-label="購物車，0 件商品">BAG <span class="cart-count">(0)</span></button>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid"></div><div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> INDEPENDENT STREETWEAR — TAIPEI</p>
+        <h1>WEAR THE<br><span>UNKNOWN</span><i>.</i></h1>
+        <div class="hero-bottom"><p>為不被定義的日常而生。<br>Built for the ones who move differently.</p><a class="circle-cta" href="#collection" aria-label="探索系列"><span>EXPLORE<br>THE DROP</span><b>↘</b></a></div>
+      </div>
+      <div class="hero-image-wrap"><img class="hero-image" src="./images/hero.jpg" alt="VOID 2025 秋冬系列形象照" fetchpriority="high"><div class="image-fallback"><span>VOID® / 008</span></div><div class="hero-caption"><span>01 / 04</span><span>FORM FOLLOWS FEELING</span></div></div>
+      <div class="hero-index">25—26<br>FW / TPE</div>
+    </section>
+    <section class="ticker" aria-label="品牌標語"><div class="ticker-track"><span>NO RULES. JUST FORM.</span><b>✳</b><span>MOVE IN YOUR OWN DIRECTION.</span><b>✳</b><span>NO RULES. JUST FORM.</span><b>✳</b><span>MOVE IN YOUR OWN DIRECTION.</span><b>✳</b></div></section>
+    <section class="collection section-pad" id="collection">
+      <div class="section-heading"><div><p class="eyebrow">01 / THE LATEST</p><h2>NEW<br>ARRIVALS<span>.</span></h2></div><p class="section-note">設計給每天都在變化的你。<br>MADE TO MOVE. MADE TO LAST.</p></div>
+      <div class="filters" role="group" aria-label="商品分類"><button class="filter-button active" data-filter="all">ALL <span>(04)</span></button><button class="filter-button" data-filter="tops">TOPS</button><button class="filter-button" data-filter="outerwear">OUTERWEAR</button><button class="filter-button" data-filter="accessories">OBJECTS</button></div>
+      <div class="product-grid">
+        <article class="product-card" data-category="outerwear"><button class="product-image" data-product="01" aria-label="查看商品：NIGHT SHIFT JACKET"><img src="./images/01.jpg" alt="NIGHT SHIFT JACKET 黑色機能外套" loading="lazy"><span class="image-label">DROP 008</span><span class="quick-view">QUICK VIEW ↗</span></button><div class="product-info"><div><p class="product-code">V-008 / OUTERWEAR</p><h3>NIGHT SHIFT JACKET</h3></div><p class="price">NT$ 3,280</p></div><button class="add-to-cart" data-name="NIGHT SHIFT JACKET">ADD TO BAG <span>+</span></button></article>
+        <article class="product-card" data-category="tops"><button class="product-image" data-product="02" aria-label="查看商品：STATIC OVERSIZED TEE"><img src="./images/02.jpg" alt="STATIC OVERSIZED TEE 寬版短袖上衣" loading="lazy"><span class="image-label">BEST SELLER</span><span class="quick-view">QUICK VIEW ↗</span></button><div class="product-info"><div><p class="product-code">V-006 / TOPS</p><h3>STATIC OVERSIZED TEE</h3></div><p class="price">NT$ 1,280</p></div><button class="add-to-cart" data-name="STATIC OVERSIZED TEE">ADD TO BAG <span>+</span></button></article>
+        <article class="product-card" data-category="outerwear"><button class="product-image" data-product="03" aria-label="查看商品：AFTER HOURS VEST"><img src="./images/03.jpg" alt="AFTER HOURS VEST 多口袋背心" loading="lazy"><span class="image-label">LIMITED</span><span class="quick-view">QUICK VIEW ↗</span></button><div class="product-info"><div><p class="product-code">V-007 / OUTERWEAR</p><h3>AFTER HOURS VEST</h3></div><p class="price">NT$ 2,480</p></div><button class="add-to-cart" data-name="AFTER HOURS VEST">ADD TO BAG <span>+</span></button></article>
+        <article class="product-card" data-category="accessories"><button class="product-image" data-product="04" aria-label="查看商品：NO SIGNAL CAP"><img src="./images/04.jpg" alt="NO SIGNAL CAP 黑色刺繡帽" loading="lazy"><span class="image-label">NEW</span><span class="quick-view">QUICK VIEW ↗</span></button><div class="product-info"><div><p class="product-code">V-009 / OBJECTS</p><h3>NO SIGNAL CAP</h3></div><p class="price">NT$ 980</p></div><button class="add-to-cart" data-name="NO SIGNAL CAP">ADD TO BAG <span>+</span></button></article>
+      </div>
+    </section>
+    <section class="manifesto" id="about"><div class="manifesto-mark">V.</div><div class="manifesto-content"><p class="eyebrow">02 / WHY WE EXIST</p><h2>LESS NOISE.<br><span>MORE SIGNAL.</span></h2><div class="manifesto-bottom"><p>VOID 是來自台北的獨立服裝品牌。我們相信，衣服不必大聲，態度自然會被看見。從剪裁、材質到每個細節，只留下真正重要的部分。</p><a href="#contact" class="text-link">GET TO KNOW US <span>↗</span></a></div></div></section>
+    <section class="contact section-pad" id="contact"><div><p class="eyebrow">03 / SAY HELLO</p><h2>LET'S TALK<span>.</span></h2></div><div class="contact-details"><p>合作、媒體或只是想打聲招呼？<br>我們很樂意聽聽你的想法。</p><a href="mailto:hello@void-studio.tw">HELLO@VOID-STUDIO.TW ↗</a><span>TAIPEI, TAIWAN — 25°02' N 121°33' E</span></div></section>
+  </main>
+  <footer class="site-footer"><a class="logo" href="#home">VOID<span>®</span></a><p>© 2025 VOID STUDIO. ALL RIGHTS RESERVED.</p><div class="social-links"><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">IG ↗</a><a href="https://www.behance.net/" target="_blank" rel="noreferrer">BE ↗</a></div><a class="back-top" href="#home" aria-label="回到頂部">↑</a></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <dialog class="product-modal"><button class="modal-close" aria-label="關閉">×</button><img src="" alt=""><div class="modal-content"><p class="eyebrow">VOID® / PRODUCT DETAILS</p><h2></h2><p class="modal-description">精選耐用材質與俐落剪裁，為城市移動打造的日常裝備。</p><p class="modal-price"></p><button class="modal-add">ADD TO BAG <span>+</span></button></div></dialog>
+</body>
+</html>
