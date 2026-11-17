@@ -1,0 +1,50 @@
+# VOID® 潮流服飾網站導覽
+
+## 專案簡介
+
+VOID® 是以深色科技感呈現的潮流服飾品牌靜態首頁，使用原生 HTML5、CSS3 與 Vanilla JavaScript 製作，可直接部署至 Vercel。
+
+## 網站區塊
+
+- **導覽列**：品牌 Logo、商品系列、品牌介紹與聯絡連結；手機版提供漢堡選單。
+- **主視覺**：品牌標語、系列形象與探索按鈕。
+- **新品商品**：商品卡片、分類篩選、快速查看視窗及購物袋數量提示。
+- **品牌介紹**：VOID® 品牌理念簡介。
+- **聯絡與頁尾**：電子郵件、社群連結與版權資訊。
+
+## 專案檔案
+
+```text
+/
+├── index.html   # 網站結構與內容
+├── style.css    # 全站樣式與響應式版型
+├── script.js    # 選單、篩選、商品視窗與購物袋互動
+├── read.me      # 本導覽文件
+└── images/      # 網站圖片資源
+```
+
+## 圖片替換
+
+將圖片放入 `images/`，並使用下列小寫檔名：
+
+- `hero.jpg`：首頁主視覺
+- `01.jpg`：NIGHT SHIFT JACKET
+- `02.jpg`：STATIC OVERSIZED TEE
+- `03.jpg`：AFTER HOURS VEST
+- `04.jpg`：NO SIGNAL CAP
+
+建議使用適合直式商品展示的高解析度圖片。若圖片尚未放入，版面仍會維持比例，並隱藏載入失敗的圖片圖示。
+
+## 本機預覽
+
+以瀏覽器開啟根目錄的 `index.html` 即可預覽；網站不需要安裝依賴或建置步驟。
+
+## 部署至 Vercel
+
+在 Vercel 匯入此 GitHub repository，Framework Preset 選擇 **Other**，Build Command 留空，Output Directory 設為 `.`，即可部署為靜態網站。
+
+## 技術與路徑
+
+- 原生 HTML、CSS、JavaScript，沒有建置工具或框架依賴。
+- 網站檔案及資源路徑使用小寫名稱與相對路徑。
+- 響應式版型支援桌機、平板與手機。
